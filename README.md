@@ -21,23 +21,23 @@ A personal Fitbit app for tracking urge levels (to snack or eat outside of goals
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS version)
+- NVS (Node Version Switcher)
 - A Fitbit device that supports apps (Versa 3/4, Sense/Sense 2)
 - Fitbit mobile app on your phone
 - Developer Bridge enabled on your Fitbit device
 
 ## Setup & Development
 
-### 1. Install the Fitbit SDK CLI
+### 1. Install pnpm package manager
 
-```bash
-npm install --global @fitbit/sdk-cli
+```PowerShell
+npm install --global pnpm@11.5.2
 ```
 
 ### 2. Install project dependencies
 
-```bash
-npm install
+```PowerShell
+pnpm install
 ```
 
 ### 3. Enable Developer Bridge on your Fitbit

@@ -4,16 +4,15 @@
   "private": true,
   "license": "UNLICENSED",
   "fitbit": {
-    "appUUID": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "appUUID": "2280852c-510c-4183-b05a-31615584ee48",
     "appType": "app",
     "appDisplayName": "Urge Meter",
     "iconFile": "resources/icon.png",
     "wipeColor": "#F44336",
     "requestedPermissions": [],
     "buildTargets": [
-      "meson",
-      "hera",
-      "rhea"
+      "atlas",
+      "vulcan"
     ],
     "i18n": {
       "en": {

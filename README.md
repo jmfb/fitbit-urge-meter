@@ -90,7 +90,8 @@ fitbit-urge-meter/
 ├── app/
 │   └── index.js          # Main app logic (runs on device)
 ├── resources/
-│   ├── index.gui         # UI layout (SVG-based)
+│   ├── index.view        # UI layout (SVG-based)
+│   ├── widget.defs       # Widget definitions & stylesheet link
 │   └── styles.css        # Stylesheet
 ├── package.json          # Project config & Fitbit SDK settings
 ├── .gitignore
@@ -108,9 +109,8 @@ fitbit-urge-meter/
 ## Supported Devices
 
 Configured for:
-- **Versa 3** (build target: `meson`)
-- **Versa 4** (build target: `rhea`)
-- **Sense / Sense 2** (build target: `hera`)
+- **Versa 3** (build target: `atlas`)
+- **Sense** (build target: `vulcan`)
 
 To change target devices, edit the `buildTargets` array in `package.json`.
 

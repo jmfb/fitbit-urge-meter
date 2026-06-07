@@ -1,0 +1,25 @@
+.application {
+  fill: black;
+}
+
+#title-text {
+  font-size: 24;
+  font-family: System-Bold;
+  fill: white;
+  text-anchor: middle;
+}
+
+#level-text {
+  font-size: 40;
+  font-family: System-Bold;
+  fill: white;
+  text-anchor: middle;
+}
+
+#level-bar {
+  fill: #4CAF50;
+}
+
+#btn-up, #btn-down {
+  fill: #333333;
+}

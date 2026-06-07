@@ -1,0 +1,28 @@
+{
+  "name": "fitbit-urge-meter",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "fitbit": {
+    "appUUID": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "appType": "app",
+    "appDisplayName": "Urge Meter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#F44336",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson",
+      "hera",
+      "rhea"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Urge Meter"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  }
+}
